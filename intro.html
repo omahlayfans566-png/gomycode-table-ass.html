@@ -139,6 +139,21 @@
  (*)alt (alternative text):this is crucial. if the image fail to load,this that appear.more importantly,screen readers read this aloud to visually impaired users.
 -->
 <img src="tall_b.jpg" alt="a tall building" width="180">
-    
+
+    <!--* HTML Video
+    The <video> element is how we bring motion and sound a webpage without replying on third-party (like the days of flash)it work similary to the <img> tag but requires a closing tag and often include multiple "source" options to ensure it works on every browser.
+
+         * key component:
+         (*)control: this is the important attribute. without it,the video is just a static image with no play button, volume slider , seek bar.
+
+         (*) <source>: we put the file path here.
+
+         (*) fallback text: the text "your browser does not support ..." olny show up if someone is using a very ancient web browser.
+
+-->
+         <video controls height="360" width="640" autoplay muted loop controls="">
+           <source src="tri-p.mp4" type="video/mp4">
+
+         </video>
 </body>
 </html>
