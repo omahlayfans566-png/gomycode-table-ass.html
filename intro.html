@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <style>
+        body{
+            background-color: indianred;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .table-container{
+            background-color: white;
+            padding: 15px;
+            border-radius: 16px;
+            width: 100%;
+        }
+
+        h1{
+            margin-top: 0;
+            color: indianred;
+            border-left: 5px solid royalblue;
+            padding-left: 20px;
+        }
+
+      
+        table{
+            width: 70%;
+            /* color:; */
+            gap: 20px;
+        }
+
+        th{
+            background-color: indianred;
+            padding: 14px 12px;
+            text-align: left;
+            white-space: nowrap;
+            border-right: 12px solid transparent; /* The width of the gap */
+            background-clip: padding-box; /* Stops the red color from filling the gap */
+            /* display: inline-block; */
+            /* margin: 12px; */
+        }
+
+        td{
+            padding: 12px;
+            border-bottom: 1px solid #0B7C5C;
+        }
+        thead{
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>One</h1>
+    <h2>Two</h2>
+    <h3>Three</h3> -->
+    <!-- <h4>Four</h4> -->
+    <!-- <h5>Five</h5> -->
+    <!-- <h6>Six</h6>
+
+
+
+    <p>Lorem ipsum dolor
+        
+        
+        <br>
+        <br>
+        
+        sit amet, consectetur
+        
+        <br>
+        <br>
+        <br>
+                        adipisicing elit. Repudiandae 
+                        
+                        <br>
+                        <br>
+                        <br>
+                        nostrum                        recusandae tempora?</p> -->
+
+                        <!-- * Pre-formatted Text in HTML -->
+                         <!-- If we need to create content that uses multiple spaces and line, we can use the HTML <pre> tag. -->
+                            <!-- The <pre> tag creates preformatted text. Preformattd texts are displayed as written in the HTML file. -->
+
+                                <!-- <pre>
+                                        This text
+                                        will be 
+                                            displayed
+
+                                            in the same manner
+                                                        as it is written
+                                </pre> -->
+
+<!-- It's possible to include one HTML element inside another. This is also true <p> tags. For  -->
+<!-- <p>We use can other tags . <strong>the strong tag to emphaze text</strong></p> -->
+
+<!-- HTML TABLE -->
+ <!-- The HTML table tag (<table>) is used to represent data in a structured way by creating a table. -->
+    <div class="table-container">
+        <h1>🗒️ Employee Directory</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="margin-left: 20px;">ID</th>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Office</th>
+                    <th>Age</th>
+                    <th>Start Date</th>
+                    <th>Salary</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>EMP-101</td>
+                    <td><strong>Tiger Nixon</strong></td>
+                    <td>System Architect</td>
+                    <td>Edinburgh</td>
+                    <td>61</td>
+                    <td>2011/04/25</td>
+                    <td class="salary">$320,800</td>
+                    <td><span class="badge badge-fulltime">Full Time</span></td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+
+
+    
+</body>
+</html>
